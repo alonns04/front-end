@@ -4,11 +4,23 @@
 div{
     color: white;
     background-color: #11141b;
-    text-align: center;
+}
+.textojustificado{
+    text-align: justify;
+}
+.textoizquierda{
+    text-align: left;
 }
 @media (max-width: 576px){
     .row{
         padding-top: 50px;
+        text-align: center;
+    }
+    .textojustificado{
+        text-align: center;
+    }
+    .textoizquierda{
+        text-align: center;
     }
     #fotodeperfil{
         width: 40%;
